@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #FFFFFF;
+  color: #C1B4AC;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  border-bottom: 1px solid #C1B4AC;
+  margin-bottom: 2em;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@media all and (min-width: 480px) {
+  .Login {
+    padding: 60px 0;
+  }
+
+  .Login form {
+    margin: 0 auto;
+    max-width: 320px;
+  }
+}
+
+h1 {
+    font-size: 6em;
+    font-weight: 100;
+}
+
+h2 {
+    font-size: 4em;
+    font-weight: 100;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 100;
+}
+
+
+p {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin-right: 1em;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.4em;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+  text-transform: uppercase;
+}
+
+.display-linebreak {
+  white-space: pre-line;
+}
+
+.center-user {
+  align-items: center;
+  justify-content: center;
+}
+
+.search-field {
+    width: 25%;
+    margin: 0 auto;
+    font-size: 1.8rem;
+}
+
+.graphs div {
+    margin-bottom: 2em;
+}
