@@ -6,7 +6,7 @@ const Search = () => {
     const history = useHistory();
     const [searchResult, setSearchResult] = useState("");
     // const apiUrl = "http://localhost:2337";
-    const apiUrl = "backend.ml-jsramverk.me";
+    const apiUrl = "https://backend.ml-jsramverk.me";
 
     const savingSearch = event => {
         setSearchResult(event.target.value);

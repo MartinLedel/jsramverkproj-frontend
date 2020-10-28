@@ -7,7 +7,7 @@ const UserOverview = () => {
         stocks: [],
     });
     // const apiUrl = "http://localhost:2337";
-    const apiUrl = "backend.ml-jsramverk.me";
+    const apiUrl = "https://backend.ml-jsramverk.me";
 
     useEffect(() => {
         fetch(apiUrl + `/stock/overview/${sessionStorage.getItem('user')}`, {
@@ -28,7 +28,7 @@ const UserOverview = () => {
               });
           })
           .catch(error => console.error('Error:', error));
-    }, []);
+    });
 
     return (
     <main>

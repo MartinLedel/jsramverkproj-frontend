@@ -6,7 +6,7 @@ let socket;
 
 export const StockChart = props => {
     // const socketUrl = "http://localhost:9300";
-    const socketUrl = "socket.ml-jsramverk.me";
+    const socketUrl = "https://socket.ml-jsramverk.me";
     let stockname = props.stockname
 
     function slugify(text) {
