@@ -11,7 +11,8 @@ export const StockInterface = props => {
     const [showSell, setShowSell] = useState(false);
     const handleSellClose = () => setShowSell(false);
     const handleSellShow = () => setShowSell(true);
-    const apiUrl = "http://localhost:1337";
+    // const apiUrl = "http://localhost:1337";
+    const apiUrl = "api.ml-jsramverkproj.me";
 
     function validateBuySell() {
       return stockBuy > 0 || stockSell > 0;

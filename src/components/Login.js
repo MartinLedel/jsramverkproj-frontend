@@ -6,7 +6,8 @@ export const Login = props => {
   const history = useHistory();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const apiUrl = "http://localhost:1337";
+  // const apiUrl = "http://localhost:1337";
+  const apiUrl = "api.ml-jsramverkproj.me";
 
   function validateForm() {
     return email.length > 0 && password.length > 0;

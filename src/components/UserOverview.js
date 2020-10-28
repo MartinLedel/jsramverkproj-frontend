@@ -6,7 +6,8 @@ const UserOverview = () => {
         balance: null,
         stocks: [],
     });
-    const apiUrl = "http://localhost:1337";
+    // const apiUrl = "http://localhost:1337";
+    const apiUrl = "api.ml-jsramverkproj.me";
 
     useEffect(() => {
         fetch(apiUrl + `/stock/overview/${sessionStorage.getItem('user')}`, {

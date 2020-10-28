@@ -5,7 +5,8 @@ import 'rickshaw/rickshaw.min.css';
 let socket;
 
 export const StockChart = props => {
-    const socketUrl = "http://localhost:8300";
+    // const socketUrl = "http://localhost:8300";
+    const socketUrl = "socket.ml-jsramverkproj.me";
     let stockname = props.stockname
 
     function slugify(text) {
