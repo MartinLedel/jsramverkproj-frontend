@@ -6,8 +6,8 @@ export default function Register() {
   const history = useHistory();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  // const apiUrl = "http://localhost:1337";
-  const apiUrl = "api.ml-jsramverkproj.me";
+  // const apiUrl = "http://localhost:2337";
+  const apiUrl = "backend.ml-jsramverk.me";
 
   function validateForm() {
     return email.length > 0 && password.length > 0;

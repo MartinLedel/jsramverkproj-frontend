@@ -5,8 +5,8 @@ import { Button, InputGroup, FormControl } from "react-bootstrap";
 const Search = () => {
     const history = useHistory();
     const [searchResult, setSearchResult] = useState("");
-    // const apiUrl = "http://localhost:1337";
-    const apiUrl = "api.ml-jsramverkproj.me";
+    // const apiUrl = "http://localhost:2337";
+    const apiUrl = "backend.ml-jsramverk.me";
 
     const savingSearch = event => {
         setSearchResult(event.target.value);

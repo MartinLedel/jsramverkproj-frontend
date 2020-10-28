@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && rsync -av build/* deploy@ml-jsramverkproj.me:/var/www/ml-jsramverkproj.me/html/"
+    "deploy": "npm run build && rsync -av build/* deploy@ml-jsramverk.me:/var/www/frontend.ml-jsramverk.me/html/"
   },
   "eslintConfig": {
     "extends": "react-app"

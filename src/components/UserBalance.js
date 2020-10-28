@@ -7,8 +7,8 @@ const UserBalance = () => {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-    // const apiUrl = "http://localhost:1337";
-    const apiUrl = "api.ml-jsramverkproj.me";
+    // const apiUrl = "http://localhost:2337";
+    const apiUrl = "backend.ml-jsramverk.me";
 
     useEffect(() => {
         fetch(apiUrl + `/stock/add-balance/${sessionStorage.getItem('user')}`, {
